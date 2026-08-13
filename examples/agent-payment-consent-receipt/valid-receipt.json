@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "agent": "agent-pubkey-abc123",
+  "authorizer": "human-pubkey-xyz789",
+  "scope": [
+    "pay_invoice",
+    "get_balance"
+  ],
+  "asset": "USDC",
+  "chain_id": 8453,
+  "amount": "5.00",
+  "amount_cap": "50.00",
+  "purpose": "Pay 5 USDC for a one-time data look-up on Base.",
+  "expires_at": "2026-09-01T00:00:00Z",
+  "nonce": "nonce-0001",
+  "content_sha256": "20370fc406ec7178b946ac7fe6c53133fe786ee924c66ec93b79093c6ee4658e",
+  "signatures": {
+    "authorizer": {
+      "alg": "ed25519",
+      "public_key": "3d8998727276cc1d60b08eec034865f692962822fd499d0a7b8f532ff222a0da",
+      "signature": "3d37443add95fba5e31a7c3191110a1bc0f3ee511314efc6be36371e72270d3cb9423d3bc79b58bf83571083c61ed716710e80c30a973daf5cdabaa958a8d60d"
+    }
+  }
+}

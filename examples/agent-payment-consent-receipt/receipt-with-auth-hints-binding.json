@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "agent": "agent:openpay/x402-mcp-authhints",
+  "authorizer": "human-pubkey-xyz789",
+  "scope": [
+    "pay_invoice"
+  ],
+  "asset": "USDC",
+  "chain_id": 8453,
+  "amount": "25.00",
+  "amount_cap": "25.00",
+  "purpose": "Pay up to 25.00 USDC for premium-data; entitlement bound to the referenced auth-hints entitlement policy and payer-wallet delegation (authenticated subject differs from payer wallet).",
+  "issued_at": "2026-08-13T12:00:00Z",
+  "expires_at": "2026-08-14T12:00:00Z",
+  "nonce": "nonce-0009",
+  "references": [
+    {
+      "type": "entitlement_policy",
+      "id": "policy:authhints/delegated-payer-v1",
+      "content_sha256": "d8df59e3230c3796d5c33dac8c12fc4f7b42355907b0eef7e139ec2076242553"
+    },
+    {
+      "type": "delegation",
+      "id": "delegation:authhints/wallet-delegation-2026-08-13",
+      "content_sha256": "d9fba67a90a148b68e7dc791623a1743dd7e026a0f23cc0bcbe9bc0c3656c119"
+    }
+  ],
+  "content_sha256": "872473f80cb7ca731f77e79f35b777b81b23154313fe82f59cdf8613b44e340d",
+  "signatures": {
+    "authorizer": {
+      "alg": "ed25519",
+      "public_key": "3d8998727276cc1d60b08eec034865f692962822fd499d0a7b8f532ff222a0da",
+      "signature": "c975e8a75a8be8747d74f328b15c077795339567a8af82f5dc8cbeb4956b858d61e9a7bf3afb4774cee29fe44d9424367434b5f08d3a0dfdd2b63f6a74701206"
+    }
+  }
+}

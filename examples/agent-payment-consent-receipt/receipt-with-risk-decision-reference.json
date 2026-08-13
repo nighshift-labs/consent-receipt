@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "agent": "agent:claude/openpay-x402-mcp",
+  "authorizer": "human-pubkey-xyz789",
+  "scope": [
+    "pay_invoice"
+  ],
+  "asset": "USDC",
+  "chain_id": 8453,
+  "amount": "50.00",
+  "amount_cap": "50.00",
+  "purpose": "Pay up to 50.00 USDC for coo-icp-agent-consult, allowed only under the referenced ACTIVE risk decision.",
+  "issued_at": "2026-08-13T09:00:00Z",
+  "expires_at": "2026-08-14T09:00:00Z",
+  "nonce": "nonce-0005",
+  "content_sha256": "fd743902aa1867316f383792a61194a8142a657296ca88edb645739009b885e5",
+  "signatures": {
+    "authorizer": {
+      "alg": "ed25519",
+      "public_key": "3d8998727276cc1d60b08eec034865f692962822fd499d0a7b8f532ff222a0da",
+      "signature": "c3e3ce87a95bc0f31ea29f11ad017711f0560cea44cc3d7ebc4af55de87288c3487a19cc157908f0aaf332a48be2a9bbca79f043a5d7d97f191fe9799132a202"
+    }
+  }
+}

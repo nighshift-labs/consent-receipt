@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "agent": "agent:claude/openpay-x402-mcp",
+  "authorizer": "human-pubkey-xyz789",
+  "scope": [
+    "pay_invoice"
+  ],
+  "asset": "USDC",
+  "chain_id": 8453,
+  "amount": "50.00",
+  "amount_cap": "50.00",
+  "purpose": "Pay up to 50.00 USDC for coo-icp-agent-consult, inside the human-anchored delegation chain of the referenced authz_attestation.",
+  "issued_at": "2026-08-13T09:00:00Z",
+  "expires_at": "2026-08-14T09:00:00Z",
+  "nonce": "nonce-0006",
+  "content_sha256": "c639f6ad440dcfded308342a9ca6f4efc18cc79430e5b07e07d9d8d27a550ca9",
+  "signatures": {
+    "authorizer": {
+      "alg": "ed25519",
+      "public_key": "3d8998727276cc1d60b08eec034865f692962822fd499d0a7b8f532ff222a0da",
+      "signature": "b7b3003f5d179f3d10afe484e799951a028b71da5650c8e13b9f3318bce9dbc4deb170a8adc76b7eacc94b7311d21679f1928aca2e0b08a7c15a226f1bda6806"
+    }
+  }
+}

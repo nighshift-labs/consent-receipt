@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "agent": "agent:claude/openpay-x402-mcp",
+  "authorizer": "human-pubkey-xyz789",
+  "scope": [
+    "pay_invoice"
+  ],
+  "asset": "JPYC",
+  "chain_id": 137,
+  "amount": "2.00",
+  "amount_cap": "2.00",
+  "purpose": "Pay up to 2.00 JPYC for coo-icp-agent-consult, fee-split (merchant leg + fee leg).",
+  "issued_at": "2026-07-01T00:00:00Z",
+  "expires_at": "2026-09-01T00:00:00Z",
+  "nonce": "nonce-0004",
+  "content_sha256": "9fee5df622221afea12afe28de99961fe7f4adab311a06e0831995153b4bdfb8",
+  "signatures": {
+    "authorizer": {
+      "alg": "ed25519",
+      "public_key": "3d8998727276cc1d60b08eec034865f692962822fd499d0a7b8f532ff222a0da",
+      "signature": "f95f70f238b4dd597fd6ea1af669240d0f0385ed8984d31167762632725c1fd78639e46b7ef35f2a05ded8532a4aef3f622ecbf6a4d8a8ddc78e69aa2dd0bf00"
+    }
+  }
+}

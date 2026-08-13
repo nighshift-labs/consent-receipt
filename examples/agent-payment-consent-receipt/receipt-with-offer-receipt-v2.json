@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "agent": "agent:openpay/x402-mcp-batch",
+  "authorizer": "human-pubkey-xyz789",
+  "scope": [
+    "pay_invoice"
+  ],
+  "asset": "USDC",
+  "chain_id": 8453,
+  "amount": "50.00",
+  "amount_cap": "50.00",
+  "purpose": "Pay up to 50.00 USDC for a 1-hour A100 x4 GPU lease, terms bound to the referenced signed offer; settlement under batch-settlement is identified by commitmentId.",
+  "issued_at": "2026-08-13T11:00:00Z",
+  "expires_at": "2026-08-14T11:00:00Z",
+  "nonce": "nonce-0008",
+  "references": [
+    {
+      "type": "offer",
+      "id": "https://api.batchpay.example/gpu-lease",
+      "content_sha256": "9222a5647eb848287c18f74db2e5ddb06d70e846c997fa229aa0346409b62e3d"
+    }
+  ],
+  "content_sha256": "d4db2e011fc527cc618e770ab074c4ca6416dd8c90c05a7819db4c735240d72d",
+  "signatures": {
+    "authorizer": {
+      "alg": "ed25519",
+      "public_key": "3d8998727276cc1d60b08eec034865f692962822fd499d0a7b8f532ff222a0da",
+      "signature": "26c1e46cfa54489b8fffa6ea5990c99a6deffeb139869be994597720e612dd97f038e686ffb04e36857a4681ddb05514ab00900eea666539c954b7d93a050001"
+    }
+  }
+}

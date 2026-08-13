@@ -1,0 +1,3 @@
+# Only needed for tools/sign_consent_receipt.py (Ed25519 sign/verify).
+# The checker (tools/consent_receipt_check.py) and the AIR composer are stdlib-only.
+cryptography>=42.0

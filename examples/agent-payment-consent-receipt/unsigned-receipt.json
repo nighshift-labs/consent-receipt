@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "agent": "agent-pubkey-abc123",
+  "authorizer": "human-pubkey-xyz789",
+  "scope": [
+    "pay_invoice",
+    "get_balance",
+    "list_transactions"
+  ],
+  "asset": "USDC",
+  "chain_id": 8453,
+  "amount": "50.00",
+  "amount_cap": "50.00",
+  "purpose": "Standing authorization for invoice payments up to the cap.",
+  "expires_at": "2026-09-01T00:00:00Z",
+  "nonce": "nonce-0002",
+  "content_sha256": "a239c0bc392f58a7e85fa0854acdbde04b9c130747848136f4958984e2e7dddd"
+}

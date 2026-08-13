@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "agent": "agent-pubkey-abc123",
+  "authorizer": "human-pubkey-xyz789",
+  "scope": [
+    "pay_invoice"
+  ],
+  "asset": "USDC",
+  "chain_id": 8453,
+  "amount": "5.00",
+  "amount_cap": "50.00",
+  "purpose": "Pay up to 50 USDC for agent data look-ups on Base, within the human-authorized scope.",
+  "expires_at": "2026-09-01T00:00:00Z",
+  "issued_at": "2026-08-01T00:00:00Z",
+  "nonce": "nonce-0003",
+  "content_sha256": "be6ec102b0a3dcda4cefa254b75a9803d48c5ba5e99fbd251385618bddceeb6b",
+  "signatures": {
+    "authorizer": {
+      "alg": "ed25519",
+      "public_key": "3d8998727276cc1d60b08eec034865f692962822fd499d0a7b8f532ff222a0da",
+      "signature": "974113ae2c284a972223e90b29b353a96c72e782798d7dfb277fd8d824d5fc6a1fdbd5436724ee8499129c2165f704eba119175e484d01c8e8d9d503555c4e00"
+    }
+  }
+}

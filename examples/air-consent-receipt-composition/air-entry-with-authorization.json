@@ -1,0 +1,82 @@
+{
+  "spec": "agent-interaction-receipt",
+  "spec_version": "0.3-draft-2",
+  "entry_type": "receipt",
+  "session_id": "vidainf-prices:0xA1b2",
+  "seq": 0,
+  "prev_entry_hash": null,
+  "issued_at": "2026-08-13T10:00:00Z",
+  "capability_id": "vidainf-prices",
+  "parties": [
+    {
+      "role": "bridge",
+      "id": "https://bridge.example",
+      "key_id": "ed25519:mAxb12Qw9zKe"
+    },
+    {
+      "role": "provider",
+      "id": "0xProviderWallet",
+      "key_id": null
+    },
+    {
+      "role": "payer",
+      "id": "0xA1b2",
+      "key_id": null
+    }
+  ],
+  "request": {
+    "kind": "http-request",
+    "method": "POST",
+    "target": "/mcp/vidainf-prices",
+    "status": null,
+    "media_type": "application/json",
+    "body_sha256": "3a913a913a913a913a913a913a913a913a913a913a913a913a913a913a913a91",
+    "body_len": 184
+  },
+  "response": {
+    "kind": "http-response",
+    "method": null,
+    "target": null,
+    "status": 200,
+    "media_type": "application/json",
+    "body_sha256": "b7ceb7ceb7ceb7ceb7ceb7ceb7ceb7ceb7ceb7ceb7ceb7ceb7ceb7ceb7ceb7ce",
+    "body_len": 2048
+  },
+  "payment": {
+    "protocol": "x402",
+    "scheme": "exact",
+    "network": "base",
+    "asset": "USDC",
+    "amount": "5",
+    "pay_to": "0xProviderWallet",
+    "payer": "0xA1b2",
+    "payment_payload_sha256": "77aa77aa77aa77aa77aa77aa77aa77aa77aa77aa77aa77aa77aa77aa77aa77aa",
+    "settlement_status": "pending",
+    "settlement_ref": null,
+    "settle_response_sha256": null,
+    "settle_response_len": null
+  },
+  "authorizations": [
+    {
+      "scheme": "nightshift.consent_receipt.v1",
+      "decision_ref": "a30a21c6c4b2c2aef6b0aff36297846c681a1191173353f1938f71182693095e",
+      "authorization_uri": "https://blossom.primal.net/0825ccc36167fd2b7a0ee42043217e9f71ccbf79232e51270b4979558fb88a81.json",
+      "authorization_sha256": "0825ccc36167fd2b7a0ee42043217e9f71ccbf79232e51270b4979558fb88a81",
+      "transport_hint": "raw_url",
+      "axes": {
+        "precedence": {
+          "field": "issued_at"
+        },
+        "freshness": {
+          "expires_at_field": "expires_at",
+          "flavor": "computable"
+        },
+        "correctness": null
+      },
+      "trust_model": "issuer_signed",
+      "authority_ref": "ed25519:3d8998727276cc1d60b08eec034865f692962822fd499d0a7b8f532ff222a0da"
+    }
+  ],
+  "meta": {},
+  "signatures": []
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "agent": "agent:claude/openpay-x402-mcp",
+  "authorizer": "human-pubkey-xyz789",
+  "scope": [
+    "pay_invoice"
+  ],
+  "asset": "USDC",
+  "chain_id": 8453,
+  "amount": "50.00",
+  "amount_cap": "50.00",
+  "purpose": "Pay up to 50.00 USDC for coo-icp-agent-consult, terms bound to the referenced signed offer.",
+  "issued_at": "2026-08-13T10:00:00Z",
+  "expires_at": "2026-08-14T10:00:00Z",
+  "nonce": "nonce-0007",
+  "references": [
+    {
+      "type": "offer",
+      "id": "https://api.coo-icp.example/agent-consult",
+      "content_sha256": "9d40ae1bf0fea0065f042fadb39420b718182a797da9c4d4263e49a1ed7c7c09"
+    }
+  ],
+  "content_sha256": "ab5e302e1200174aeaec8f3011db2b7fe1cfb4f73268fd7ce4a6d58090c7e92a",
+  "signatures": {
+    "authorizer": {
+      "alg": "ed25519",
+      "public_key": "3d8998727276cc1d60b08eec034865f692962822fd499d0a7b8f532ff222a0da",
+      "signature": "e09d8eb46025e4ff9fff67c25c6a85be85d6ba71ac5772a625fa1e79a4bd9b928853fe294feec03fb9506a78dadb85d8f99abf7a630a184db821c248f2269c0a"
+    }
+  }
+}
