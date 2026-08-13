@@ -90,8 +90,9 @@ For a supplied receipt / disclosure manifest / AIR binding entry, Nightshift
 offers a fixed-scope, public-data-only verification pass using the tools in
 this repo: deterministic validation, binding-coherence check, digest
 recompute, and a one-page "what this proves vs. what it does not" result.
-Deliver-first, pay-on-acceptance, native USDC on Base only. This is a
-prepared offer — no buyer has been established.
+Deliver-first, pay-on-acceptance, native USDC on Base only. See
+[`SERVICE.md`](SERVICE.md) for the full offer, price, and payment rails. This
+is a prepared offer — no buyer has been established.
 
 ## License
 
