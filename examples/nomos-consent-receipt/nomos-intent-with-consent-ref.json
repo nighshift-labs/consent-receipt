@@ -1,0 +1,24 @@
+{
+  "schema": "nomos.intent.v1",
+  "intent_id": "int1_9491e3df840047caafa0e4846c95b45f",
+  "consumer_id": "rwa-readonly-cohort",
+  "subject_id": "feedoracle.io",
+  "requested_capability": "RWA_REGISTRY_STATS_READ",
+  "requested_action": "READ",
+  "route": "/v1/rwa/registry/stats",
+  "method": "GET",
+  "purpose": "x402 full-chain showcase cid=e642afcf-934f-4be3-9f62-1c1ae9284f49 pb=408ca1a332c098972ee706d3872b44e1 payer=0x02a1d1ddf7af9654fc6760a2a5de1f584c1d0a21 cn=acceptance-canary-25d654bfe679",
+  "constraints": {
+    "side_effects_allowed": false,
+    "payment_allowed": false,
+    "max_latency_ms": null
+  },
+  "created_at": "2026-08-10T21:23:37Z",
+  "expires_at": "2026-08-10T21:25:37Z",
+  "nonce": "a1e7da525bff9b35d9f781af60045832",
+  "authorization_ref": {
+    "schema": "nightshift.consent_receipt.v1",
+    "content_sha256": "45e9015ecab849d1808560a37ddec8c2ef332f79f4847c1d154020a49ab82d9c"
+  },
+  "intent_digest": "sha256:3244519b87404277a4bb07a243e81e853e51ebe12bc4bdf481a40f5a326c185e"
+}
