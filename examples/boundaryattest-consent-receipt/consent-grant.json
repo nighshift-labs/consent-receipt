@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "agent": "x402-agent-7f3a",
+  "authorizer": "human-alice-ed25519",
+  "scope": [
+    "pay_invoice",
+    "get_balance"
+  ],
+  "asset": "USDC",
+  "chain_id": 8453,
+  "amount": "5.00",
+  "amount_cap": "50.00",
+  "purpose": "Pay for verified x402 data look-ups on Base, per invoice, up to the cap.",
+  "expires_at": "2026-09-01T00:00:00Z",
+  "issued_at": "2026-08-14T10:00:00Z",
+  "nonce": "boundaryattest-interop-0001",
+  "content_sha256": "bc486e73ff4220c86f83c4c35a8ecb4e984a6262b7b61af722364cf6f332f231",
+  "signatures": {
+    "authorizer": {
+      "alg": "ed25519",
+      "public_key": "3d8998727276cc1d60b08eec034865f692962822fd499d0a7b8f532ff222a0da",
+      "signature": "c318b83bea6e38e9af60b9cda1d6eca74a167d7e311550c9e5f23c9fbc2816af15549f16251905eb50de40c96f7f1c6f959eedeb2b05b5fe15edb6e03381cf0f"
+    }
+  }
+}
