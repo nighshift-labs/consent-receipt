@@ -1,0 +1,18 @@
+{
+  "claim": {
+    "receipt_version": "0.1",
+    "receipt_role": "server_attested",
+    "event_id": "evt_x402_pay_0001",
+    "timestamp": "2026-08-14T11:00:00.000Z",
+    "action_type": "pay_invoice",
+    "status": "success",
+    "target_ref": "x402://lookup.example/resource/ip-intel",
+    "artifact_hash": null,
+    "tool_name": "x402-client",
+    "session_id": "sess-0001",
+    "previous_receipt_hash": null,
+    "authorization_ref": "bc486e73ff4220c86f83c4c35a8ecb4e984a6262b7b61af722364cf6f332f231"
+  },
+  "signature": "krouV394nM8ivX5HaPibEhm6sPGuMYufvAmzBH7QdfxB9bs1hRKtOh2GJ/ZKeiYuirsZovAHtGJ4dluyvCbIBg==",
+  "public_key_id": "sha256:a26fe843f4f8e69a11ca34ee439a8c9a7cad24b1e98f87b0096e723a2ff07ebd"
+}
