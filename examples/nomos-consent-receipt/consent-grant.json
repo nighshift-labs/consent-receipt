@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "agent": "feedoracle.io",
+  "authorizer": "human-operator-nomos-canary",
+  "scope": [
+    "RWA_REGISTRY_STATS_READ"
+  ],
+  "asset": "USDC",
+  "chain_id": 8453,
+  "amount": "0.001",
+  "amount_cap": "0.001",
+  "purpose": "Authorize feedoracle.io (NOMOS governed consumer) to perform the governed, read-only RWA registry statistics read for the x402 full-chain showcase (nomos_full_chain_verification), no side effects, no state change.",
+  "expires_at": "2026-08-10T21:25:37Z",
+  "issued_at": "2026-08-10T21:23:30Z",
+  "nonce": "nomos-composition-0001",
+  "content_sha256": "45e9015ecab849d1808560a37ddec8c2ef332f79f4847c1d154020a49ab82d9c",
+  "signatures": {
+    "authorizer": {
+      "alg": "ed25519",
+      "public_key": "3d8998727276cc1d60b08eec034865f692962822fd499d0a7b8f532ff222a0da",
+      "signature": "2cd346453fd4346b290215f36e404719aff32ac23a4a1a83a584754393183368955c791e76bbd3829beb6d2e10f0a3a4a109f046689b15b44a1d9632ad5d8c03"
+    }
+  }
+}
