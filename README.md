@@ -28,8 +28,9 @@ flow.
 | `tools/sign_consent_receipt.py` | Ed25519 sign/verify over the canonical body (`content_sha256 = SHA-256(JCS(receipt minus {content_sha256, signatures}))`). Requires `cryptography`. |
 | `tools/air_consent_compose.py` | Composes a consent receipt into an AIR `authorizations[]` binding entry, with the scheme-defined binding-coherence predicates (payment-within-cap, asset-match, within-validity). |
 | `tools/boundaryattest_interop.py` | Composes a consent grant with a BoundaryAttest Interop v0.1 receipt via an `authorization_ref` digest pointer — provenance (the signed action) + authorization (the signed grant) in one check. |
+| `tools/nomos_consent_compose.py` | Composes a consent grant as the human-authorization *origin* of a NOMOS intent (AgentNOMOS trust-chain) via `authorization_ref` — closes NOMOS's explicit execution-bound claim ceiling. |
 | `docs/agent-payment-consent-receipt.md` | The spec. |
-| `docs/*.md` | Composition notes mapping the receipt onto live drafts: AIR, draft-morrison-04, settlement binding, offer-receipt v2, auth-hints, risk-decision provenance, authorization-provenance (ZK), BoundaryAttest interop. |
+| `docs/*.md` | Composition notes mapping the receipt onto live drafts: AIR, draft-morrison-04, settlement binding, offer-receipt v2, auth-hints, risk-decision provenance, authorization-provenance (ZK), BoundaryAttest interop, NOMOS trust-chain. |
 | `examples/` | Signed and unsigned fixtures, one per composition. All digests recompute byte-for-byte. |
 
 ## Quickstart
